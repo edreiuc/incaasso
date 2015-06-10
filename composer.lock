@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef2254b87b67630e4f4e3b4655ece177",
+    "hash": "ab3071cda374b8752e66c6f49f35b364",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -127,16 +127,16 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "3.0.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "a4ad1cbd81ab8623bb5ea34aaab2d9f7a3eaad3a"
+                "reference": "19e5540afb70969c3bf714b10c3b230abbbaf2a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/a4ad1cbd81ab8623bb5ea34aaab2d9f7a3eaad3a",
-                "reference": "a4ad1cbd81ab8623bb5ea34aaab2d9f7a3eaad3a",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/19e5540afb70969c3bf714b10c3b230abbbaf2a9",
+                "reference": "19e5540afb70969c3bf714b10c3b230abbbaf2a9",
                 "shasum": ""
             },
             "require": {
@@ -164,8 +164,7 @@
             },
             "require-dev": {
                 "cakephp/cakephp-codesniffer": "dev-master",
-                "phpunit/phpunit": "*",
-                "phpunit/phpunit-mock-objects": "2.3.1"
+                "phpunit/phpunit": "*"
             },
             "type": "library",
             "extra": {
@@ -199,20 +198,20 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-05-28 14:55:30"
+            "time": "2015-06-09 13:52:58"
         },
         {
             "name": "cakephp/migrations",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/migrations.git",
-                "reference": "b5758f5b62569d9de4f9a6bb81f4f868a87b3060"
+                "reference": "5221b4c66d98c6d506ad0324967f9f346e16b19c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/migrations/zipball/b5758f5b62569d9de4f9a6bb81f4f868a87b3060",
-                "reference": "b5758f5b62569d9de4f9a6bb81f4f868a87b3060",
+                "url": "https://api.github.com/repos/cakephp/migrations/zipball/5221b4c66d98c6d506ad0324967f9f346e16b19c",
+                "reference": "5221b4c66d98c6d506ad0324967f9f346e16b19c",
                 "shasum": ""
             },
             "require": {
@@ -221,7 +220,7 @@
                 "robmorgan/phinx": ">=0.4.2 <1.0"
             },
             "require-dev": {
-                "cakephp/bake": "dev-master",
+                "cakephp/bake": "@stable",
                 "phpunit/phpunit": "*"
             },
             "suggest": {
@@ -249,7 +248,7 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2015-05-29 21:28:50"
+            "time": "2015-06-08 20:09:08"
         },
         {
             "name": "cakephp/plugin-installer",
@@ -1088,6 +1087,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "cakephp/cakephp": 20,
+        "cakephp/migrations": 0,
         "psy/psysh": 0
     },
     "prefer-stable": true,
